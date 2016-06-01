@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.lhind.AviationMgmt</groupId>
+  <artifactId>reservation-mgmt</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Reservation Management</name>
+  <description>A sample application to present some of the features of the CQRS patter</description>
+  
+  <licenses>
+        <license>
+            <name>Commercial</name>
+            <comments>Copyrighted work</comments>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Lufthansa Industry Solutions, Norderstedt (Germany)</name>
+        <url>www.lufthansa-industry-solutions.com/</url>
+    </organization>
+    
+    <dependencies>
+    
+        <dependency>
+	      <groupId>org.fuin</groupId>
+	      <artifactId>cqrs-4-java</artifactId>
+	      <version>0.1.0-SNAPSHOT</version>
+	      <scope>compile</scope>
+	    </dependency>
+	    
+	    <dependency>
+            <groupId>org.easytesting</groupId>
+            <artifactId>fest-assert</artifactId>
+            <version>1.4</version>
+            <scope>test</scope>
+        </dependency>
+    
+    </dependencies>
+</project>
